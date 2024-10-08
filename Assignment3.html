@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Complete Registration Form</legend>
+
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required><br><br>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name"><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="number" id="phone" name="phone" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+           
+                <label>Courses Offered:</label><br>
+                <input type="checkbox" id="java" name="course" value="Java Full Stack">
+                <label for="java">Java Full Stack</label><br>
+                <input type="checkbox" id="python" name="course" value="Python Full Stack">
+                <label for="python">Python Full Stack</label><br>
+                <input type="checkbox" id="ai" name="course" value="Artificial Intelligence & Machine Learning">
+                <label for="ai">Artificial Intelligence & Machine Learning</label><br>
+                <input type="checkbox" id="data-science" name="course" value="Data Science using Python">
+                <label for="data-science">Data Science using Python</label><br>
+                <input type="checkbox" id="web-development" name="course" value="Web Development">
+                <label for="web-development">Web Development</label><br>
+                <input type="checkbox" id="cloud-computing" name="course" value="Cloud Computing">
+                <label for="cloud-computing">Cloud Computing</label><br>
+                <input type="checkbox" id="cyber-security" name="course" value="Cyber Security">
+                <label for="cyber-security">Cyber Security</label><br><br>
+           
+
+            <label for="aadhaar">Aadhaar Card:</label>
+            <input type="file" id="aadhaar" name="aadhaar" accept=".pdf,.jpg,.jpeg,.png"><br><br>
+
+            <label for="country">Your Residential Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="india">India</option>
+                <option value="dubai">Dubai</option>
+                <option value="saudi-arabia">Saudi Arabia</option>
+                <option value="turkey">Turkey</option>
+                <option value="usa">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+            </select><br><br>
+
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+    <h4>Audio Instructions for Filling the Form:</h4>
+    <audio controls>
+        <source src="romantic-240213.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h4>Video Tutorial on How to Fill the Form:</h4>
+    <video controls width="600">
+        <source src="mixkit-52237-video-52237-hd-ready.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+    
+    <p>*Note: The video and audio don't have to do anything with the form; they are just demo data.</p>
+</body>
+</html>
